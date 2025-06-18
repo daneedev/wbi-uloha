@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 </head>
 <body>
     <nav>
@@ -18,7 +18,15 @@
                 <input class="searchbar" type="text" name="query" placeholder="">
             </div>
         </form>
-        <ul>
+        <ul class="nav-list">
+            <li><a href="/">Domů</a></li>
+            <li><a href="#">O nás</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="hamburger-menu-list">
             <li><a href="/">Domů</a></li>
             <li><a href="#">O nás</a></li>
             <li><a href="#">Kontakt</a></li>
@@ -134,5 +142,6 @@
     <footer>
         <p>2023 &copy; Chytré info, Matěj Cajthaml</p>
     </footer>
+    <script src="/assets/js/hamburger.js"></script>
 </body>
 </html>

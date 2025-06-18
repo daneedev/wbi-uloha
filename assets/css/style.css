@@ -28,6 +28,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 nav h1 {
@@ -60,17 +61,21 @@ nav .searchbar {
     padding-left: 30px;
 }
 
-nav ul {
+.nav-list {
     list-style: none;
     display: flex;
     gap: 20px;
 }
-nav ul li a  {
+.nav-list li a  {
     font-size: 16px;
     color: var(--gray);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.hamburger-menu, .hamburger-menu-close, .hamburger-menu-list {
+    display: none;
 }
 
 .orange {
@@ -95,6 +100,7 @@ main {
     align-items: center;
     margin-top: 20px;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .feature-box {
@@ -186,11 +192,20 @@ main {
     color: var(--dark-gray);
 }
 
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact-btn {
     background-color: var(--secondary-color);
     text-decoration: none;
     color: #ffffff;
-    padding: 10px 20px;
+    width: 100%;
+    padding: 15px 20px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
@@ -198,6 +213,7 @@ main {
     cursor: pointer;
     border-radius: 30px;
     transition-duration: 0.3s;
+    text-align: center;
 }
 .contact-btn:hover {
     background-color: #ffffff;
@@ -236,10 +252,8 @@ main {
     width: 10px;
 }
 
-
 .news img {
     max-width: 100px;
-    height: 150px;
     border-radius: 15px;
 }
 .news-content {
@@ -275,8 +289,8 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
 }
+
 .news-details {
     display: flex;
     gap: 10px;
