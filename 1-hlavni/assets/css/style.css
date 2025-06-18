@@ -145,7 +145,7 @@ main {
 
 .about {
     grid-column: span 2;
-    background-image: linear-gradient(rgba(251, 160, 71, 0.7), rgba(251, 160, 71, 0.7)), url("/assets/img/about.jpg");
+    background-image: linear-gradient(rgba(251, 160, 71, 0.7), rgba(251, 160, 71, 0.7)), url("../img/about.jpg");
     border-radius: 20px;
     background-size: cover;
     aspect-ratio: 16 / 9;
