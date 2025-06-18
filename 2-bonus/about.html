@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chytré info</title>    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Chytré <span class="orange">info</span></a>
+        <form action="#" method="get">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="searchbar" type="text" name="query" placeholder="">
+            </div>
+        </form>
+        <ul class="nav-list">
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="about.html">O nás</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+        <div class="hamburger-menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="hamburger-menu-list">
+            <li><a href="index.html">Domů</a></li>
+            <li><a href="about.html">O nás</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article class="about-hero">
+            <h1>O společnosti <span class="orange">Chytré info</span></h1>
+            <p class="about-subtitle">Váš partner pro ověřené a spolehlivé informace</p>
+        </article>
+
+        <article class="about-content">
+            <img src="./assets/img/about.jpg" class="about-image">
+            <div class="about-text">
+                <h2>Naše mise</h2>
+                <p>V dnešní době přehlcené informacemi je stále těžší rozlišit pravdu od fikce. Společnost <span class="orange">Chytré info</span> vznikla v roce 2020 s jediným cílem: pomáhat lidem i organizacím orientovat se ve světě informací a rozpoznávat fakta od dezinformací.</p>
+                
+                <h2>Co děláme</h2>
+                <p>Specializujeme se na důkladné ověřování informací pomocí osvědčených metod a postupů:</p>
+                <ul class="about-list">
+                    <li><i class="fa-solid fa-check"></i> Ověřování faktů a tvrzení ve veřejném prostoru</li>
+                    <li><i class="fa-solid fa-check"></i> Analýza zdrojů a jejich důvěryhodnosti</li>
+                    <li><i class="fa-solid fa-check"></i> Výzkum v oblasti šíření dezinformací</li>
+                    <li><i class="fa-solid fa-check"></i> Vzdělávací programy pro školy a organizace</li>
+                    <li><i class="fa-solid fa-check"></i> Konzultace pro média a veřejné instituce</li>
+                </ul>
+            </div>
+        </article>        
+        <article class="about-values">
+            <h2 class="values-title">Naše hodnoty</h2>
+            <section id="features">
+                <article class="feature-box">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <p class="feature-title">Objektivita</p>
+                </article>
+                <article class="feature-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p class="feature-title">Přesnost</p>
+                </article>
+                <article class="feature-box">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <p class="feature-title">Transparentnost</p>
+                </article>
+                <article class="feature-box">
+                    <i class="fa-solid fa-users"></i>
+                    <p class="feature-title">Přístupnost</p>
+                </article>
+            </section>
+        </article>
+
+        <article class="about-team">
+            <h2 class="team-title">Náš tým</h2>
+            <section class="team-container">
+                <div class="team-member">
+                    <img src="https://avatars.githubusercontent.com/cajthamlmatej" alt="Matěj Cajthaml" class="member-photo">
+                    <div class="member-details">
+                        <p class="member-name">Matěj Cajthaml</p>
+                        <p class="member-position">Zakladatel & CEO</p>
+                        <p class="member-description">Novinář s více než 10 lety zkušeností v oblasti investigativní žurnalistiky a faktického ověřování.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="photo-placeholder"><i class="fa-solid fa-user"></i></div>
+                    <div class="member-details">
+                        <p class="member-name">Jan Novák</p>
+                        <p class="member-position">Technologický ředitel</p>
+                        <p class="member-description">Specialista na digitální média a technologie s fokusem na automatizaci ověřování informací.</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="./assets/img/yoko.jpg" alt="Yoko" class="member-photo">
+                    <div class="member-details">
+                        <p class="member-name">Yoko</p>
+                        <p class="member-position">Hlavní novinář a kocour</p>
+                        <p class="member-description">Novinář s bohatými zkušenostmi v oblasti krmiva pro kočičky</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <p>2023 &copy; Chytré info, Matěj Cajthaml</p>
+    </footer>
+    <script src="./assets/js/hamburger.js"></script>
+</body>
+</html>
