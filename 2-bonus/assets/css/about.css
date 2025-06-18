@@ -20,6 +20,8 @@
     gap: 40px;
     margin-bottom: 40px;
     justify-content: space-between;
+    animation: fadeInDown 0.7s ease-in-out 0s 1 normal forwards;
+
 }
 
 .about-image, .article-image {
@@ -62,6 +64,7 @@
 
 .about-values {
     width: 100%;
+    animation: fadeInLeft 0.7s ease-in-out 0s 1 normal forwards;
 }
 
 .values-title, .team-title {
@@ -93,6 +96,7 @@
     display: flex;
     flex-direction: column;
     transition-duration: 0.3s;
+    animation: fadeInUp 0.7s ease-in-out 0s 1 normal forwards;
 }
 
 .team-member:hover {
