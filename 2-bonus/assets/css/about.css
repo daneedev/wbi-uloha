@@ -1,8 +1,8 @@
-.about-hero {
+.about-hero, .article-hero {
     padding: 40px;
 }
 
-.about-hero h1 {
+.about-hero h1, .article-hero h1 {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -22,7 +22,7 @@
     justify-content: space-between;
 }
 
-.about-image {
+.about-image, .article-image {
     width: 50%;
     aspect-ratio: 16 / 9;
     border-radius: 20px;
