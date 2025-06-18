@@ -45,6 +45,7 @@
     line-height: 1.6;
     color: var(--dark-gray);
     justify-content: center;
+    gap: 12px;
 }
 
 .article-heading {

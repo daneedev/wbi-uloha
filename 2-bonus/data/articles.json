@@ -1,11 +1,42 @@
 [
     {
         "id": "1",
-        "title": "Super clanek",
-        "author": "John Doe",
-        "date": "2023-10-01",
+        "title": "Ověřování informací v politice",
+        "author": "Brenda Kompelová",
+        "date": "17.3",
         "readtime": "3 min",
-        "tags": ["a", "b"],
-        "content": "<p>This is a sample article content. It can be replaced with actual content.</p>"
+        "tags": ["Sektor", "Politika"],
+        "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vitae arcu tempor neque lacinia pretium. Phasellus et lorem id felis nonummy placerat. Integer tempor. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Mauris tincidunt sem sed arcu. Aenean fermentum risus id tortor. Integer tempor. Quisque tincidunt scelerisque libero. Aenean id metus id velit ullamcorper pulvinar. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Nullam eget nisl. Etiam posuere lacus quis dolor. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Nullam dapibus fermentum ipsum. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Aenean id metus id velit ullamcorper pulvinar.</p>",
+        "shorttext": "V tomto článku se zaměříme na to, jakou roli hraje ověřování informací v politických kampaních. Ukážeme, jak se politici snaží využít dezinformací…"
+    },
+    {
+        "id": "2",
+        "title": "Význam ověrování informací v digitální době",
+        "author": "Jan Novák",
+        "date": "18.3",
+        "readtime": "4 min",
+        "tags": ["Sektor", "Technologie"],
+        "content": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vitae arcu tempor neque lacinia pretium. Phasellus et lorem id felis nonummy placerat. Integer tempor. In laoreet, magna id viverra tincidunt, sem odio bibendum justo, vel imperdiet sapien wisi sed libero. Mauris tincidunt sem sed arcu. Aenean fermentum risus id tortor. Integer tempor. Quisque tincidunt scelerisque libero. Aenean id metus id velit ullamcorper pulvinar. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Nullam eget nisl. Etiam posuere lacus quis dolor. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Nullam dapibus fermentum ipsum. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Aenean id metus id velit ullamcorper pulvinar..</p>",
+        "shorttext": "V tomto článku se zaměříme na to, jakou roli hraje ověřování informací v digitálním světě. Ukážeme, jak se technologie vyvíjejí a jak ovlivňují proces ověřování."
+    },
+    {
+        "id": "3",
+        "title": "Proč jsou Whiskas nejlepší kočičí potrava",
+        "author": "Yoko",
+        "date": "18.6",
+        "readtime": "4 min",
+        "tags": ["Zvířata", "Kočky"],
+        "content": "<p>Whiskas je značka, která se už desítky let specializuje na výrobu krmiva pro kočky – a právě díky této dlouholeté zkušenosti dokáže nabídnout potravu, která odpovídá přirozeným potřebám koček. Ať už jde o kapsičky, granule nebo pamlsky, všechny produkty Whiskas jsou pečlivě vyvíjeny ve spolupráci s odborníky na výživu zvířat.</p><p>Hlavní výhodou krmiva Whiskas je jeho vyvážené složení. Obsahuje správný poměr bílkovin, tuků, vitamínů a minerálů, které kočky potřebují pro zdravý život – od lesklé srsti až po silný imunitní systém. Díky širokému výběru příchutí si navíc pochutná i ta nejvybíravější kočka.</p><p>Whiskas se také snaží přiblížit přirozené kočičí stravě – například ve formě šťavnatých kousků masa ve vlastní šťávě, které připomínají kořist ve volné přírodě. Díky tomu krmivo nejen zasytí, ale i potěší kočičí instinkty.</p><p>Zkrátka, pokud chcete pro svou kočku chutné, kvalitní a ověřené krmivo, Whiskas je sázka na jistotu.</p>",
+        "shorttext": "Whiskas je značka, která se už desítky let specializuje na výrobu krmiva pro kočky – a právě díky této dlouholeté zkušenosti dokáže nabídnout potravu, která odpovídá přirozeným potřebám koček."
+    },
+    {
+        "id": "4",
+        "title": "Autorská práva a jejich význam v digitálním věku",
+        "author": "Eva Novotná",
+        "date": "19.3",
+        "readtime": "5 min",
+        "tags": ["Sektor", "Právo"],
+        "content": "<p>Autorská práva jsou v digitálním věku stále důležitější, protože umožňují tvůrcům chránit jejich díla před neoprávněným použitím. V tomto článku se podíváme na to, jak autorská práva fungují a jak mohou tvůrci využít moderní technologie k ochraně svých děl.</p><p>V digitálním světě se autorská práva týkají nejen tradičních děl, jako jsou knihy a hudba, ale také digitálního obsahu, jako jsou fotografie, videa a software. Autorská práva poskytují tvůrcům výhradní právo na reprodukci, distribuci a veřejné vystavování jejich děl.</p><p>Moderní technologie, jako jsou blockchain a digitální vodotisky, umožňují tvůrcům lépe sledovat a chránit svá díla před neoprávněným použitím. Tyto technologie mohou také usnadnit licencování a monetizaci obsahu.</p><p>Je důležité, aby tvůrci byli informováni o svých právech a povinnostech v oblasti autorských práv, aby mohli efektivně chránit svá díla v digitálním prostředí.</p>",
+        "shorttext": "Autorská práva jsou v digitálním věku stále důležitější, protože umožňují tvůrcům chránit jejich díla před neoprávněným použitím. V tomto článku se podíváme na to, jak autorská práva fungují a jak mohou tvůrci využít moderní technologie k ochraně svých děl."
     }
 ]

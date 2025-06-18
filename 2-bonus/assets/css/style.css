@@ -244,6 +244,7 @@ main {
     overflow: hidden;
     transition-duration: 0.3s;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .news::before {
