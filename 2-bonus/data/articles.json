@@ -1,0 +1,11 @@
+[
+    {
+        "id": "1",
+        "title": "Super clanek",
+        "author": "John Doe",
+        "date": "2023-10-01",
+        "readtime": "3 min",
+        "tags": ["a", "b"],
+        "content": "<p>This is a sample article content. It can be replaced with actual content.</p>"
+    }
+]

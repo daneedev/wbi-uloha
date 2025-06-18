@@ -1,3 +1,11 @@
+.article-hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .article-content {
     width: 100%;
     display: flex;
@@ -13,6 +21,8 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 .article-details p {
     background-color: #ffffff;
